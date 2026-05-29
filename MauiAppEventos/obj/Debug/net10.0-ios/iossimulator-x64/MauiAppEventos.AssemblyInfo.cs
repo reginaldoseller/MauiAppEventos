@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MauiAppEventos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+ca95481165bda4ba6d224acb93b222478eb68c3a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+190f94fe07e73f4e15e09dc501f81050391444fd")]
 [assembly: System.Reflection.AssemblyProductAttribute("MauiAppEventos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MauiAppEventos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
