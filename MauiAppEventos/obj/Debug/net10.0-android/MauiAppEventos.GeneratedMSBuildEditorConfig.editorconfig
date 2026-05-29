@@ -21,13 +21,13 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property.EntryPointFilePath = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MauiAppEventos
-build_property.ProjectDir = C:\App\maui-estudos\MauiAppEventos\MauiAppEventos\
+build_property.ProjectDir = C:\app\maui-estudos\MauiAppEventos\MauiAppEventos\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/App/maui-estudos/MauiAppEventos/MauiAppEventos/App.xaml]
+[C:/app/maui-estudos/MauiAppEventos/MauiAppEventos/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiAppEventos.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
@@ -37,7 +37,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[C:/App/maui-estudos/MauiAppEventos/MauiAppEventos/AppShell.xaml]
+[C:/app/maui-estudos/MauiAppEventos/MauiAppEventos/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiAppEventos.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
@@ -47,7 +47,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[C:/App/maui-estudos/MauiAppEventos/MauiAppEventos/MainPage.xaml]
+[C:/app/maui-estudos/MauiAppEventos/MauiAppEventos/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiAppEventos.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
@@ -57,7 +57,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[C:/App/maui-estudos/MauiAppEventos/MauiAppEventos/Resources/Styles/Colors.xaml]
+[C:/app/maui-estudos/MauiAppEventos/MauiAppEventos/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiAppEventos.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
@@ -67,7 +67,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[C:/App/maui-estudos/MauiAppEventos/MauiAppEventos/Resources/Styles/Styles.xaml]
+[C:/app/maui-estudos/MauiAppEventos/MauiAppEventos/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiAppEventos.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
@@ -77,7 +77,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[C:/App/maui-estudos/MauiAppEventos/MauiAppEventos/Views/CadastrarEvento.xaml]
+[C:/app/maui-estudos/MauiAppEventos/MauiAppEventos/Views/CadastrarEvento.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiAppEventos.Views.CadastrarEvento.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\CadastrarEvento.xaml
@@ -87,7 +87,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[C:/App/maui-estudos/MauiAppEventos/MauiAppEventos/Views/RelatorioEvento.xaml]
+[C:/app/maui-estudos/MauiAppEventos/MauiAppEventos/Views/RelatorioEvento.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiAppEventos.Views.RelatorioEvento.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\RelatorioEvento.xaml

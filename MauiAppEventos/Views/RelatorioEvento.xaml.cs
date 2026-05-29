@@ -6,4 +6,9 @@ public partial class RelatorioEvento : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private async void Button_Clicked_Voltar_Fake(object sender, EventArgs e)
+    {
+        await Navigation.PopAsync();
+    }
 }

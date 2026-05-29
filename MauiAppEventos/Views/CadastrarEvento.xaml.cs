@@ -4,29 +4,30 @@ namespace MauiAppEventos.Views;
 
 public partial class CadastrarEvento : ContentPage
 {
-	public CadastrarEvento()
-	{
-		InitializeComponent();
+    public CadastrarEvento()
+    {
+        InitializeComponent();
 
-		// aqui eu travo a data inicial como hj
-		dt_inicio.MinimumDate = DateTime.Today;
-	}
+        // aqui eu travo a data inicial como hj
+        dt_inicio.MinimumDate = DateTime.Today;
+    }
 
-	private void dt_inicio_DateSelected(object sender, DateChangedEventArgs e)
-	{
-		if (dt_inicio.Date.HasValue) {
-		//recebe a data passada.
-		DatePicker elemento = sender as DatePicker;
-		// a variável data_selecionada é do tipo DateTime
-		DateTime data_selecionada = elemento.Date.Value;
-		dt_fim.MinimumDate = data_selecionada.AddDays(1);
-	}
+    private void dt_inicio_DateSelected(object sender, DateChangedEventArgs e)
+    {
+        if (dt_inicio.Date.HasValue)
+        {
+            //recebe a data passada.
+            DatePicker elemento = sender as DatePicker;
+            // a variável data_selecionada é do tipo DateTime
+            DateTime data_selecionada = elemento.Date.Value;
+            dt_fim.MinimumDate = data_selecionada.AddDays(1);
+        }
 
     }
 
     private async void Button_Clicked(object sender, EventArgs e)
     {
-		
+
         if (string.IsNullOrWhiteSpace(txt_nome_evento.Text))
         {
             await DisplayAlert("Ops", "Preencha o Nome do Evento", "ok");
@@ -52,20 +53,20 @@ public partial class CadastrarEvento : ContentPage
         }
 
         Evento eventoCadastrado = new Evento
-		{
-			NomeDoEvento = txt_nome_evento.Text,
-			LocalDoEvento = txt_local_evento.Text,
-			DataInicio = dt_inicio.Date.Value,
-			DataFim = dt_inicio.Date.Value,
-			NroParticipantes = Convert.ToInt32(stp_quantidade.Value),
-			CustoPorParticipante = Convert.ToDouble(txt_vlr_por_participante.Text)
+        {
+            NomeDoEvento = txt_nome_evento.Text,
+            LocalDoEvento = txt_local_evento.Text,
+            DataInicio = dt_inicio.Date.Value,
+            DataFim = dt_fim.Date.Value,
+            NroParticipantes = Convert.ToInt32(stp_quantidade.Value),
+            CustoPorParticipante = Convert.ToDouble(txt_vlr_por_participante.Text)
 
-		};
+        };
 
-		var proxima_tela = new Views.RelatorioEvento();
-		proxima_tela.BindingContext = eventoCadastrado;
+        var proxima_tela = new Views.RelatorioEvento();
+        proxima_tela.BindingContext = eventoCadastrado;
 
-		await Navigation.PushAsync(proxima_tela);
+        await Navigation.PushAsync(proxima_tela);
 
     }
 }
